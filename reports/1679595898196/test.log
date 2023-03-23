@@ -1,0 +1,28 @@
+[2023-03-23 06:24:58] [1] [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+language=en_US
+selenium_url=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.providerOptions=options
+capabilities.browserName=chrome
+================================================
+
+[2023-03-23 06:24:58] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-23 06:25:00] [1] [INFO] [TestNG] Running:
+  C:\Users\oleksii.shevtsov\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+[2023-03-23 06:25:00] [1] [INFO] Set thread-count=1
+[2023-03-23 06:25:00] [1] [INFO] Set data-provider-thread-count=1
+[2023-03-23 06:25:00] [1] [INFO] CARINA_CORE_VERSION: 8.0.7
+[2023-03-23 06:25:27] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-03-23 06:25:27] [1] [INFO] RESULT #1: TEST [Test - testSignUpUserFromFile [L01]] FAIL [screenshots=file://C:\Users\oleksii.shevtsov\IdeaProjects\Test\.\reports\1679595898196/f1db70fc-ab39-40ad-a5b0-f2af565279d7/report.html | log=file://C:\Users\oleksii.shevtsov\IdeaProjects\Test\.\reports\1679595898196/f1db70fc-ab39-40ad-a5b0-f2af565279d7/test.log]
+[2023-03-23 06:25:27] [1] [INFO] RESULT #2: TEST [Test - testSignUpUserFromFile [L02]] FAIL [screenshots=file://C:\Users\oleksii.shevtsov\IdeaProjects\Test\.\reports\1679595898196/9391eb9a-ea00-4991-9e15-415aa8e4b979/report.html | log=file://C:\Users\oleksii.shevtsov\IdeaProjects\Test\.\reports\1679595898196/9391eb9a-ea00-4991-9e15-415aa8e4b979/test.log]
+[2023-03-23 06:25:27] [1] [INFO] RESULT #3: TEST [Test - testSignUpUserFromFile [L03]] FAIL [screenshots=file://C:\Users\oleksii.shevtsov\IdeaProjects\Test\.\reports\1679595898196/113fdf19-4660-4e78-9f3b-6cca169018c2/report.html | log=file://C:\Users\oleksii.shevtsov\IdeaProjects\Test\.\reports\1679595898196/113fdf19-4660-4e78-9f3b-6cca169018c2/test.log]

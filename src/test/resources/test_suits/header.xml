@@ -1,0 +1,8 @@
+<test name="Soap API tests">
+    <classes>
+        <class name="HeaderMenuTest"/>
+        <methods>
+            <exclude name="testHeaderMenuFeaturedPage"/>
+        </methods>
+    </classes>
+</test>

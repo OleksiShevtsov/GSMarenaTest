@@ -1,0 +1,26 @@
+[2023-03-22 05:21:57] [1] [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+language=en_US
+selenium_url=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.providerOptions=options
+capabilities.browserName=chrome
+================================================
+
+[2023-03-22 05:21:58] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-22 05:22:00] [1] [INFO] [TestNG] Running:
+  C:\Users\oleksii.shevtsov\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+[2023-03-22 05:22:00] [1] [INFO] Set thread-count=1
+[2023-03-22 05:22:00] [1] [INFO] Set data-provider-thread-count=1
+[2023-03-22 05:22:00] [1] [INFO] CARINA_CORE_VERSION: 8.0.7
+[2023-03-22 05:22:46] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-03-22 05:22:46] [1] [INFO] RESULT #1: TEST [Test - testSignUpUser] FAIL [screenshots=file://C:\Users\oleksii.shevtsov\IdeaProjects\Test\.\reports\1679505717987/d9608969-d8e0-4ec7-a4f4-cf373894bf17/report.html | log=file://C:\Users\oleksii.shevtsov\IdeaProjects\Test\.\reports\1679505717987/d9608969-d8e0-4ec7-a4f4-cf373894bf17/test.log]
